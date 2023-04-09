@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "gatsby-starter-figure-blog",
+  "version": "1.0.0",
+  "description": "The blogging theme that is suitable for photographs.",
+  "starter-name": "gatsby-starter-figure-blog",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenpaMk2/gatsby-starter-figure-blog.git"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "author": "tenpaMk2 <wavyroom@gmail.com> (https://github.com/tenpaMk2)",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/tenpaMk2/gatsby-starter-figure-blog/issues"
+  },
+  "homepage": "https://github.com/tenpaMk2/gatsby-starter-figure-blog#readme",
+  "dependencies": {
+    "@tenpamk2/gatsby-theme-figure-blog": "^2.0.0",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-feed": "^5.8.0",
+    "gatsby-plugin-google-gtag": "^5.8.0",
+    "gatsby-plugin-manifest": "^5.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7",
+    "prettier-plugin-md-nocjsp": "^1.5.1",
+    "prettier-plugin-tailwindcss": "^0.2.7"
+  }
+}
