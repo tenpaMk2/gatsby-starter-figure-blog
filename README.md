@@ -2,6 +2,8 @@
 
 ![exmaple-1](./images/example-1.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93c732b9-5632-4167-8407-f6debcbea0aa/deploy-status)](https://app.netlify.com/sites/gatsby-starter-figure-blog/deploys)
+
 [日本語ReadMeはこちら。](./README-ja.md)
 
 The blogging theme that is suitable for photographs.
