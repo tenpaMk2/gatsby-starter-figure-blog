@@ -13,7 +13,7 @@ Using the Gatsby theme
 
 ## Demo
 
-🚧WIP🚧
+[View demo❗](https://gatsby-starter-figure-blog.netlify.app/)
 
 ## ✨ Features
 
@@ -29,7 +29,9 @@ Using the Gatsby theme
 - Tags, archives page support
 - Cards layout support in tags and archives page
 - pagination
-- Debug and playground page support
+- Debug page support
+- Tailwind CSS support
+- Partial locale support by `Intl`
 
 ## 🚀 Getting Started
 
@@ -56,87 +58,6 @@ If you want to modify this starter, see the following docs.
 See
 [my doc: gatsby-theme-figure-blog](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme)
 .
-
-### Use Tailwind CSS
-
-See
-[Tailwind CSS | Install Tailwind CSS with Gatsby](https://tailwindcss.com/docs/guides/gatsby)
-.
-
-The following steps are my example.
-
-Enable `gatsby-plugin-postcss` in `gatsby-config.js` .
-
-```js
-plugins: [
-  "gatsby-plugin-postcss",
-],
-```
-
-Create `src/styles/global.css` .
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-Create `postcss.config.js` .
-
-```js
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
-```
-
-Create `tailwind.config.js` .
-
-```js
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/@tenpamk2/gatsby-theme-figure-blog/components/**/*.{js,jsx,ts,tsx}",
-    "./src/@tenpamk2/gatsby-theme-figure-blog/pages/**/*.{js,jsx,ts,tsx}",
-    "./src/@tenpamk2/gatsby-theme-figure-blog/templates/**/*.{js,jsx,ts,tsx}",
-    "./src/components/**/*.{js,jsx,ts,tsx}",
-    "./src/pages/**/*.{js,jsx,ts,tsx}",
-    "./src/templates/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-```
-
-Now, you can use Tailwind CSS in your custom components❗
-
-For example,
-create `src/pages/custom-page.js` ,
-and make its contents look like the following.
-
-```jsx
-import React from "react";
-import { Seo } from "@tenpamk2/gatsby-theme-figure-blog/src/components/seo";
-import { Layout } from "@tenpamk2/gatsby-theme-figure-blog/src/components/layout";
-
-const CustomPage = () => (
-  <Layout>
-    <div className="w-full rounded-xl bg-slate-700 p-6">
-      <p className="bg-[#114514]">Can I use Tailwind CSS in example?</p>
-    </div>
-  </Layout>
-);
-
-export const Head = ({ location: { pathname } }) => (
-  <Seo {...{ pathname, title: `Custom page` }} />
-);
-
-export default CustomPage;
-```
 
 ## 🤔 Questions or problems?
 

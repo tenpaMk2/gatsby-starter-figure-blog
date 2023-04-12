@@ -2,6 +2,8 @@
 
 ![exmaple-1](./images/example-1.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93c732b9-5632-4167-8407-f6debcbea0aa/deploy-status)](https://app.netlify.com/sites/gatsby-starter-figure-blog/deploys)
+
 [English ReadMe is here.](./README.md)
 
 写真に最適なブログThemeです。
@@ -10,7 +12,7 @@
 
 ## デモ
 
-🚧WIP🚧
+[デモはこちら❗](https://gatsby-starter-figure-blog.netlify.app/)
 
 ## ✨ 機能
 
@@ -26,7 +28,9 @@
 - タグページ、アーカイブページをサポート
 - タグページとアーカイブページでカードレイアウトをサポート
 - ページネーション
-- デバッグ用ページとPlayground用ページをサポート
+- デバッグ用ページをサポート
+- Tailwind CSSをサポート
+- `Intl` による部分的なロケール対応をサポート
 
 ## 🚀 Getting Started
 
@@ -52,86 +56,6 @@ npm run develop
 
 [my doc: gatsby-theme-figure-blog](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme)
 を見てください。
-
-### Tailwind CSSを使う
-
-[Tailwind CSS | Install Tailwind CSS with Gatsby](https://tailwindcss.com/docs/guides/gatsby)
-を見てください。
-
-下記は一例です。
-
-`gatsby-config.js` にて、 `gatsby-plugin-postcss` を有効化してください。
-
-```js
-plugins: [
-  "gatsby-plugin-postcss",
-],
-```
-
-`src/styles/global.css` を作成してください。
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-`postcss.config.js` を作成してください。
-
-```js
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
-```
-
-`tailwind.config.js` を作成してください。
-
-```js
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/@tenpamk2/gatsby-theme-figure-blog/components/**/*.{js,jsx,ts,tsx}",
-    "./src/@tenpamk2/gatsby-theme-figure-blog/pages/**/*.{js,jsx,ts,tsx}",
-    "./src/@tenpamk2/gatsby-theme-figure-blog/templates/**/*.{js,jsx,ts,tsx}",
-    "./src/components/**/*.{js,jsx,ts,tsx}",
-    "./src/pages/**/*.{js,jsx,ts,tsx}",
-    "./src/templates/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-```
-
-これであなたのカスタムページでTailwind CSSが使えるようになりました❗
-
-例えば、
-`src/pages/custom-page.js` を作成して、
-その内容を↓のようにしてください。
-
-```jsx
-import React from "react";
-import { Seo } from "@tenpamk2/gatsby-theme-figure-blog/src/components/seo";
-import { Layout } from "@tenpamk2/gatsby-theme-figure-blog/src/components/layout";
-
-const CustomPage = () => (
-  <Layout>
-    <div className="w-full rounded-xl bg-slate-700 p-6">
-      <p className="bg-[#114514]">Can I use Tailwind CSS in example?</p>
-    </div>
-  </Layout>
-);
-
-export const Head = ({ location: { pathname } }) => (
-  <Seo {...{ pathname, title: `Custom page` }} />
-);
-
-export default CustomPage;
-```
 
 ## 🤔 質問や問題(バグ)
 
