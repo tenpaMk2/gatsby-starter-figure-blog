@@ -164,6 +164,7 @@ module.exports = {
         icon: `src/@tenpamk2/gatsby-theme-figure-blog/images/bio.svg`,
       },
     },
+    "gatsby-plugin-postcss",
     {
       resolve: `@tenpamk2/gatsby-theme-figure-blog`,
       options: {
