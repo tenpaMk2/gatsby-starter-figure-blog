@@ -1,5 +1,6 @@
 ---
 heroImage: "./images/about.webp"
+heroImageAlt: "Dolls, figures, motorcycle and piano."
 ---
 
 ## English

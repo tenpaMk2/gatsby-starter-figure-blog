@@ -1,6 +1,7 @@
 ---
 date: 2023-04-09 16:37:00+9
 heroImage: "./images/DSC03349.jpg"
+heroImageAlt: "Megurine Luka figure"
 tags:
   - English
   - Figure

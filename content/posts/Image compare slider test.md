@@ -1,6 +1,7 @@
 ---
 date: 2023-04-09 16:53:00+9
 heroImage: "./images/compare-left.jpg"
+heroImageAlt: "Miyu, Illya and Chloe"
 tags:
   - English
   - Programming

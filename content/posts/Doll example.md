@@ -1,6 +1,7 @@
 ---
 date: 2023-04-09 16:13:00+9
 heroImage: "./images/P5160083.jpg"
+heroImageAlt: "Super cute Saki-chan and Chino-chan"
 tags:
   - English
   - Doll
