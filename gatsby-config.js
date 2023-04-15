@@ -169,6 +169,7 @@ module.exports = {
       resolve: `@tenpamk2/gatsby-theme-figure-blog`,
       options: {
         basePath: ``,
+        descriptionTruncate: true,
         externalLinks: [
           {
             name: `Asahiwa.jp(よつばとフィギュア)`,
