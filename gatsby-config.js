@@ -195,8 +195,16 @@ module.exports = {
           },
         ],
         locale: `ja-JP`, // See [`Intl.Locale` in MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale).
+        optionsGatsbyPluginSharp: {
+          defaults: {
+            formats: [`webp`],
+            breakpoints: [480, 1024, 1920],
+          },
+        },
         optionsGatsbyRemarkImages: {
           quality: 90,
+          srcSetBreakpoints: [480, 1024, 1920],
+          withAvif: false,
         },
         optionsGatsbyTransformerRemark: {
           excerpt_separator: `<!-- more -->`, // If `undefined` is specified, default pruning method is used.
