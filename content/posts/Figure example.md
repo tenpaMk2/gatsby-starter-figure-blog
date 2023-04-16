@@ -35,3 +35,27 @@ tags:
 
 [ライザ(ライザリン・シュタウト)](http://wonderfulworks.co.jp/product/article.php?id=2)
 ![ライザ(ライザリン・シュタウト)](./images/P9180040.jpg)
+
+## Known issues
+
+### Image link is broken when text link is in the same paragraph
+
+```md
+There is no link.
+![加藤恵 レーシングVer.](./images/DSC01325.jpg)
+```
+
+There is no link.
+![加藤恵 レーシングVer.](./images/DSC01325.jpg)
+
+```md
+There is
+[link](/)
+.
+![加藤恵 レーシングVer.](./images/DSC01325.jpg)
+```
+
+There is
+[link](/)
+.
+![加藤恵 レーシングVer.](./images/DSC01325.jpg)
