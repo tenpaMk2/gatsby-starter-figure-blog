@@ -1,6 +1,6 @@
 ---
 title: "Frontmatterの `title` を定義すれば、 `/` が使えます"
-date: 2023-04-09 15:21:00+9
+date: 2023-04-09 15:22:00+9
 tags:
   - 日本語
   - プログラミング
@@ -15,7 +15,7 @@ Frontmatter titleテスト記事。
 ```markdown
 ---
 title: "Frontmatterの `title` を定義すれば、 `/` が使えます"
-date: 2023-04-09 15:21:00+9
+date: 2023-04-09 15:22:00+9
 tags:
   - 日本語
   - プログラミング

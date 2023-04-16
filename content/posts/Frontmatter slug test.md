@@ -1,6 +1,6 @@
 ---
 slug: "/this/post/has/slug/"
-date: 2022-12-31 23:59:59+9
+date: 2022-12-31 23:59:58+9
 tags:
   - English
   - Programming
