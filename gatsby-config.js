@@ -82,7 +82,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "tenpaMk2's blog RSS feed | All",
+            title: "gatsby-starter-figure-blog demo RSS feed | All",
           },
           {
             serialize: ({ query: { site, allMarkdownPost } }) =>
@@ -109,7 +109,7 @@ module.exports = {
               }
             `,
             output: "/tags/フィギュア/rss.xml",
-            title: "tenpaMk2's blog RSS feed | tag: フィギュア",
+            title: "gatsby-starter-figure-blog demo RSS feed | tag: フィギュア",
           },
           {
             serialize: ({ query: { site, allMarkdownPost } }) =>
@@ -136,7 +136,7 @@ module.exports = {
               }
             `,
             output: "/tags/ドール/rss.xml",
-            title: "tenpaMk2's blog RSS feed | tag: ドール",
+            title: "gatsby-starter-figure-blog demo RSS feed | tag: ドール",
           },
         ],
       },
