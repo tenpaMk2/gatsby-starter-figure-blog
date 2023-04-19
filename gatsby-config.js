@@ -198,12 +198,12 @@ module.exports = {
         optionsGatsbyPluginSharp: {
           defaults: {
             formats: [`webp`],
-            breakpoints: [480, 1024, 1920],
+            breakpoints: [480, 1024, 2048],
           },
         },
         optionsGatsbyRemarkImages: {
           quality: 90,
-          srcSetBreakpoints: [480, 1024, 1920],
+          srcSetBreakpoints: [480, 1024, 2048],
           withAvif: false,
         },
         optionsGatsbyTransformerRemark: {
