@@ -36,6 +36,10 @@ module.exports = {
         name: "RSS",
         link: "/rss/",
       },
+      {
+        name: "My blog",
+        link: "https://tenpamk2-blog.netlify.app",
+      },
     ],
   },
   plugins: [
@@ -172,26 +176,50 @@ module.exports = {
         descriptionTruncate: true,
         externalLinks: [
           {
+            name: `tenpaMk2's blog`,
+            url: `https://tenpamk2-blog.netlify.app`,
+          },
+          {
             name: `Asahiwa.jp(よつばとフィギュア)`,
-            url: `https://asahiwa.jp/`,
+            url: `https://asahiwa.jp`,
           },
           { name: `ふぃぎゅる！`, url: `http://blog.livedoor.jp/nobuno88/` },
-          { name: `fig-memo`, url: `https://fig-memo.com/` },
+          { name: `fig-memo`, url: `https://fig-memo.com` },
           {
             name: `Analographicsworks`,
             url: `https://analographics.net/archives/category/figure-review`,
           },
           {
             name: `雪の降る空に`,
-            url: `https://yukinofurusorani.livedoor.blog/`,
+            url: `https://yukinofurusorani.livedoor.blog`,
           },
           {
             name: `mattintosh note`,
-            url: `https://mattintosh.hatenablog.com/archive/category/スケールフィギュア`,
+            url: `https://mattintosh.hatenablog.com/archive/category/フィギュア`,
           },
           {
             name: `affilabo.com`,
             url: `https://affilabo.com/category/figure/`,
+          },
+          {
+            name: `QP's blog`,
+            url: `https://qp-works.com/category/figure/`,
+          },
+          {
+            name: `F9のフィギュア棚`,
+            url: `https://fantia.jp/fanclubs/164836/`,
+          },
+          {
+            name: `葵的 美少女フィギュアの世界`,
+            url: `https://note.com/ao_figure/`,
+          },
+          {
+            name: `よよのデジタルショーケース`,
+            url: `https://yoyotandigitalshowcase.hatenablog.com`
+          },
+          {
+            name: `an-gallery`,
+            url: `https://an-gallery.com`
           },
         ],
         locale: `ja-JP`, // See [`Intl.Locale` in MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale).
