@@ -215,11 +215,15 @@ module.exports = {
           },
           {
             name: `よよのデジタルショーケース`,
-            url: `https://yoyotandigitalshowcase.hatenablog.com`
+            url: `https://yoyotandigitalshowcase.hatenablog.com`,
           },
           {
             name: `an-gallery`,
-            url: `https://an-gallery.com`
+            url: `https://an-gallery.com`,
+          },
+          {
+            name: `フィギュアレン`,
+            url: `http://figuren-toy.com`,
           },
         ],
         locale: `ja-JP`, // See [`Intl.Locale` in MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale).
