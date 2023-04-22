@@ -6,7 +6,9 @@
 
 [日本語ReadMeはこちら。](./README-ja.md)
 
-The blogging theme that is suitable for photographs.
+The blogging starter that is suitable for Bishoujo Figure photographs.
+You can start your own bishoujo figure review blog right now❗
+
 Using the Gatsby theme
 [`@tenpaMk2/gatsby-theme-figure-blog`](https://github.com/tenpaMk2/gatsby-theme-figure-blog)
 .
@@ -15,22 +17,26 @@ Using the Gatsby theme
 
 [View demo❗](https://gatsby-starter-figure-blog.netlify.app/)
 
+## My blog
+
+[tenpaMk2's blog](https://tenpamk2-blog.netlify.app/)
+
 ## ✨ Features
 
 - Make your photos look as large as possible.
 - Responsive
-- Hero image support
-  - If it's portrait, focus (crop) on the top side because the figure's face is usually there❗
-- Generate post title from filename.
+- Hero image
+  - If it's portrait, focus (crop) on the top side. Since the figure's face is often there❗
+- Generate post title from filename
 - Pure Markdown not MDX
-- [Special hooks](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme#special-hooks)
-- Code highlighting by [prism.js](https://prismjs.com/)
-- Dark Mode only
-- Tags, archives page support
+- [Special hooks](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme/README.md#special-hooks)
+- Code highlighting by [Prism.js](https://prismjs.com/)
+- Dark mode only
+- Tags, archives pages
 - Cards layout support in tags and archives page
-- pagination
-- Debug page support
-- Tailwind CSS support
+- Pagination
+- Debug page
+- Tailwind CSS
 - Partial locale support by `Intl`
 
 ## 🚀 Getting Started

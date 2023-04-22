@@ -6,7 +6,9 @@
 
 [English ReadMe is here.](./README.md)
 
-写真に最適なブログThemeです。
+美少女フィギュア写真に最適なブログStarterです。
+美少女フィギュアレビューブログをすぐにでも始めれます❗
+
 [`@tenpaMk2/gatsby-theme-figure-blog`](https://github.com/tenpaMk2/gatsby-theme-figure-blog)
 のGatsby Themeを使っています。
 
@@ -14,23 +16,27 @@
 
 [デモはこちら❗](https://gatsby-starter-figure-blog.netlify.app/)
 
+## 作者のブログ
+
+[tenpaMk2's blog](https://tenpamk2-blog.netlify.app/)
+
 ## ✨ 機能
 
 - 写真を可能な限り大きく見せます
 - レスポンシブ
-- ヒーローイメージ対応
-  - もし縦長画像の場合、画像上部にフォーカスします。フィギュアの顔は通常は上部にありますからね❗
+- ヒーロー画像(アイキャッチとかキービジュアルとか呼ばれてるもの)
+  - もし縦長画像の場合、画像上部にフォーカスします。フィギュアの顔は通常は上部にあるからね❗
 - 記事タイトルをファイル名から生成
-- Markdownをサポート、MDXは非サポート
-- [Special hooks](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme#special-hooks)
+- ピュアMarkdown(MDXは非サポート)
+- [Special hooks](https://github.com/tenpaMk2/gatsby-theme-figure-blog/tree/main/theme/README-ja.md#special-hooks)
 - [prism.js](https://prismjs.com/) によるコードのシンタックスハイライト
-- ダークモードオンリー
-- タグページ、アーカイブページをサポート
-- タグページとアーカイブページでカードレイアウトをサポート
+- ダークモードのみ
+- タグページ、アーカイブページ
+- タグページとアーカイブページでのカードレイアウト
 - ページネーション
-- デバッグ用ページをサポート
-- Tailwind CSSをサポート
-- `Intl` による部分的なロケール対応をサポート
+- デバッグ用ページ
+- Tailwind CSS
+- `Intl` による部分的なロケール対応
 
 ## 🚀 Getting Started
 
