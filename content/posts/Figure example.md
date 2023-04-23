@@ -36,6 +36,12 @@ tags:
 [ライザ(ライザリン・シュタウト)](http://wonderfulworks.co.jp/product/article.php?id=2)
 ![ライザ(ライザリン・シュタウト)](./images/P9180040.jpg)
 
+## Want to see more figues❓
+
+See my blog❗
+
+[Tag: フィギュア | tenpaMk2's blog](https://tenpamk2-blog.netlify.app/tags/%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2/)
+
 ## Known issues
 
 ### Image link is broken when text link is in the same paragraph
