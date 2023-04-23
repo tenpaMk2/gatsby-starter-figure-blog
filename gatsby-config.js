@@ -225,6 +225,10 @@ module.exports = {
             name: `フィギュアレン`,
             url: `http://figuren-toy.com`,
           },
+          {
+            name: `FREETIME`,
+            url: `https://freetime.mixh.jp`,
+          },
         ],
         locale: `ja-JP`, // See [`Intl.Locale` in MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale).
         optionsGatsbyPluginSharp: {
