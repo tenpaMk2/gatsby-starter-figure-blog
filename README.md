@@ -41,13 +41,30 @@ Using the Gatsby theme
 
 ## 🚀 Getting Started
 
+Before installing starter, you have to install
+[`gatsby-cli`](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+.
+
 ```sh
-npx gatsby new gatsby-starter-figure-blog https://github.com/tenpaMk2/gatsby-starter-figure-blog
+npm install -g gatsby-cli
+```
+
+Install starter.
+If you have installed Gatsby locally, use `npx gatsby` command instead.
+
+```sh
+gatsby new gatsby-starter-figure-blog https://github.com/tenpaMk2/gatsby-starter-figure-blog
+```
+
+Change directory, and start a development server.
+
+```sh
 cd gatsby-starter-figure-blog
 npm run develop
 ```
 
 Access `http://localhost:8000` .
+You can see the blog❗
 
 This starter uses my Gatsby Theme (
 [`@tenpaMk2/gatsby-theme-figure-blog`](https://github.com/tenpaMk2/gatsby-theme-figure-blog)

@@ -40,13 +40,30 @@
 
 ## 🚀 Getting Started
 
+Starterをインストールする前に、
+[`gatsby-cli`](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+をインストールする必要があります。
+
 ```sh
-npx gatsby new gatsby-starter-figure-blog https://github.com/tenpaMk2/gatsby-starter-figure-blog
+npm install -g gatsby-cli
+```
+
+Starterをインストールします。
+もしGatsbyをローカルにインストールした場合、代わりに `npx gatsby` コマンドを使ってください。
+
+```sh
+gatsby new gatsby-starter-figure-blog https://github.com/tenpaMk2/gatsby-starter-figure-blog
+```
+
+ディレクトリを移動して、開発サーバーをスタートします。
+
+```sh
 cd gatsby-starter-figure-blog
 npm run develop
 ```
 
 `http://localhost:8000` にアクセスしてください。
+ブログが見れるはずです❗
 
 このStarterは拙作のGatsby Theme(
 [`@tenpaMk2/gatsby-theme-figure-blog`](https://github.com/tenpaMk2/gatsby-theme-figure-blog)
