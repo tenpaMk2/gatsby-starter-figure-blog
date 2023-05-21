@@ -52,6 +52,14 @@ Markdown test post.
 
 ###### Heading h6
 
+## Heading links
+
+1. [Heading h2](#heading-h2)
+2. [Heading h3](#heading-h3)
+3. [Heading h4](#heading-h4)
+4. [Heading h5](#heading-h5)
+5. [Heading h6](#heading-h6)
+
 ## Bullet lists
 
 ```markdown
@@ -406,15 +414,19 @@ Multi level block quote test.
 ↓
 
 > Level 1.
+>
 > > Level 2.
+> >
 > > > Level 3.
+> > >
 > > > > Level 4.
+> > > >
 > > > > > Level 5.
 > > > > > Level 5.
-> > > > Level 4.
-> > > Level 3.
-> > Level 2.
-> Level 1.
+> > > > > Level 4.
+> > > > > Level 3.
+> > > > > Level 2.
+> > > > > Level 1.
 
 ## Horizontal Rules
 
